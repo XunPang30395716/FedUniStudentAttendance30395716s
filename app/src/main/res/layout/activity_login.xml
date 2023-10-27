@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="16dp"
+    android:padding="16dp"
+    android:background="#BBFFFFFF"
+
+
+    android:orientation="vertical">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center"
+android:orientation="vertical"
+android:padding="16dp">
+
+
+
+
+    <EditText
+        android:textColorHint="#86AAB3"
+        android:hint="Enter your User ID"
+        android:id="@+id/etLoginUserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+
+
+    <EditText
+        android:textColorHint="#86AAB3"
+        android:hint="Enter your User PASSWORD"
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+
+
+<!-- Login Button -->
+<Button
+    android:id="@+id/btnLogin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Login"
+    android:layout_marginTop="24dp"
+    android:textColor="@color/white"
+    android:background="#86AAB3" />
+
+</LinearLayout>
+    </LinearLayout>
